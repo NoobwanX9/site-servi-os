@@ -1,0 +1,264 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: black;
+}
+
+/*CSS do Cabecalho*/
+header {
+  background :#000000; 
+  padding: 20px 0;
+  width: auto;
+ 
+ }
+
+.cabecalho .conteudo-cabeçalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-loja {
+  margin: 30px;
+  width: 150px;
+  border-radius: 200px;
+    
+}
+
+.menu {
+
+ 
+}
+
+.topicos-menu {
+  color: azure;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.topicos-menu:hover {
+  text-decoration: underline;
+}
+
+input {
+  padding: 10px 100px;
+  
+}
+
+.pesquisa {
+  border: 0.5em solid whitesmoke;
+
+
+}
+
+/*CSS da parte principal*/
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  background: #777777;
+  /*background: url("rato.jpg");*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  padding: 30px 30px 30px 30px;
+
+ 
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 1em 2em 1em 2em;
+}
+
+.rato {
+  width: 40%;
+  height: 600px;
+  
+  box-shadow: 10px 10px 10px 0 #000000;
+  opacity: 0.5;
+  transition: 400ms;
+  
+}
+
+.rato:hover {
+  opacity: 1;
+}
+
+ul {
+display: inline-block;
+vertical-align: top ;
+position: relative;
+
+text-align: center;
+/*padding: 80px;*/
+width: 50%;
+background: #000000;
+box-sizing: border-box;
+
+}
+
+.topicos-main {
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  margin: 2em 10px 0 0;
+}
+
+.texto {
+  font-size: 20px;
+  color: #FFFFFF;
+
+}
+
+.conteudo-mapa{
+  width: auto;
+  background: #000000;
+  padding: 20px 20px;
+  margin-bottom: 2em;
+
+}
+
+
+
+.mapa {
+  width: 940px;
+  margin: 40px auto;
+
+}
+
+.conteudo-video{
+
+  width: auto;
+  height: auto;
+  background: #000000;
+  margin-top: 2em;
+  
+}
+
+h3 {
+  vertical-align: top;
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+  width: 40%;
+}
+
+.texto-2 {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  line-height: 1.5em;
+
+}
+
+.video{
+  width: 90% ;
+  height: 500px;
+  padding: 2em 1em;
+  margin-left: 3em;
+}
+
+.conteudo-contato {
+  background: url("g.jpg");
+  background-repeat: no-repeat;
+  background-size: cover ;
+  padding: 1em 0 4em 1em;
+  margin: 2em 0 2em 0;
+  
+}
+
+.caixa-contato{
+  display: inline-block;
+  background: #666666;
+  margin-left: 32em ;
+  width: 40%;
+  padding: 2em;
+  opacity: 0.5;
+  transition: 400ms;
+}
+
+.caixa-contato:hover {
+  opacity: 1;
+ 
+}
+
+form label {
+ display: block;
+ margin: 1em 0 ;
+
+
+}
+
+label {
+  color: whitesmoke;
+  
+}
+
+.input-padrao {
+  width: 70%;
+}
+
+.enviar {
+  color: white;
+  width: 100%;
+  padding: 10px 0;
+  background: #000000;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+
+
+/*CSS do rodapé*/
+
+footer {
+  background: linear-gradient(#000000, #333333);
+  text-align: center;
+  padding: 40px 0;
+
+}
+
+.logo-footer {
+  width: 10%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 200px;
+}
+
+h4 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+/*CSS para mobile*/
+
+@media screen(max-width: 768px) {
+
+  .cabecalho {  
+
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+  }
+
+  .menu {
+   
+    flex-direction: column;
+
+  }
+
+
+}

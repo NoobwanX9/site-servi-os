@@ -1,0 +1,57 @@
+header {
+  background : #444444;
+  padding: 20px 0;
+}
+
+.Cabecalho {
+  
+   width: auto;
+  /* margin: 0 auto;*/
+   position: relative;
+   border-bottom: solid #FFFFFF 3px;
+   
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.logo-loja {
+  margin: 30px;
+  width: 150px;
+  border-radius: 200px;
+  box-sizing: border-box;
+  
+}
+
+.menu {
+  position: absolute;
+  padding: 30px;
+  /*top: 110px;*/
+  right: 50px;
+  text-align: top;
+  
+}
+
+.topicos-menu {
+  color: azure;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.topicos-menu:hover {
+  text-decoration: underline;
+}
+
+label{
+  vertical-align: top;
+  padding: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: azure;
+  font-weight: bold;
+}
